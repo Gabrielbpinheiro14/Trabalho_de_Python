@@ -1,3 +1,5 @@
+#defini uma variavel para o numero e depois inseri em divisoes pelos valores decrescentes das cedulas onde a divisao seguinte seria feita com base no resto  da divisao anterior. 
+
 numero = int(input('Qual valor deseja sacar, sao permitidos apenas valores entre 10 e 600 reais!! '))
 cem = int(numero / 100)
 numero = numero % 100
